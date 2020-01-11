@@ -1,4 +1,4 @@
-package com.dev_padawan.androidjedi;
+package com.dev_padawan.androidjedi.CoreTopics.Activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import com.dev_padawan.androidjedi.R;
 
-public class MainActivity extends AppCompatActivity {
+public class CallBackExample extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_call_back_example);
     }
 }
